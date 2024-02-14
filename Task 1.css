@@ -79,6 +79,12 @@ section {
 
 }
 
+@media print {
+    nav {
+        visibility: hidden;
+    }
+}
+
 a:hover {
     color: rgb(86, 9, 173);
 }
