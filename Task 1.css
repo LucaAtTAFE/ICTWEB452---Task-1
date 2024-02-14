@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+.Flex_Main_Container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: aquamarine;
+    max-width: 800px;
+    height: 800px;
+}
+
+nav {
+    flex: 1 1 800px;
+    height: fit-content;
+    background-color: antiquewhite;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+li {
+    list-style: none;
+    justify-content: flex-start;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
