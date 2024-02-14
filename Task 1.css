@@ -67,4 +67,14 @@ section {
     nav {
         order: 4;
     }
+
+    .Flex_Tertiary_Container {
+        flex: 0 1 450px;
+    }
+
+    .Flex_Secondary_Container {
+        padding-bottom: 0;
+        padding-top: 25px;
+    }
+
 }
